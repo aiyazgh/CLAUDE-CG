@@ -1,5 +1,7 @@
 <ValidationMessages name="BoCallMessages" businessObject="BoCall" schemaVersion="0.0.0.5">
   <ValidationMessage name="CasClbRemainingOpenOrders" defaultMessage="There are still open orders." comment=" " />
+  
+  
   <ValidationMessage name="CasClbNotAllMandatoryStoreSurveysAnswered" defaultMessage="Please answer all mandatory store surveys. #questions#" comment=" " />
   <ValidationMessage name="CasClbNotAllMandatoryPOSSurveysAnswered" defaultMessage="Please answer all mandatory POS Surveys. #questions#" comment=" " />
   <ValidationMessage name="CasClbNotAllMandatoryStoreQuestionsAnswered" defaultMessage="Please answer all mandatory store questions. #questions#" comment=" " />
