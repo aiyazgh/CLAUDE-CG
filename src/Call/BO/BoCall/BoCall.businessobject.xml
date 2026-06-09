@@ -1,5 +1,5 @@
 <BusinessObject name="BoCall" generateLoadMethod="false" generateCreateMethod="false" OERReference="ClbMain">
-  <DataSource name="DsBoCall"/>
+  <DataSource name="DsBoCall"/> 
   <SimpleProperties>
     <SimpleProperty name="pKey" type="DomPKey" id="true" dataSourceProperty="pKey"/>
     <SimpleProperty name="bpaMainPKey" type="DomPKey" dataSourceProperty="bpaMainPKey"/>
@@ -20,6 +20,7 @@
     </SimpleProperty>
     <SimpleProperty name="dateThru" type="DomDate" dataSourceProperty="dateThru">
       <Events>
+      
         <Event name="onChanged" eventHandler="onPropertyChanged"/>
       </Events>
     </SimpleProperty>
